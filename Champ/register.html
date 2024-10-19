@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .join{
+            display:grid;
+            grid-area:"content";
+            border: 2px solid red;
+            width:max-content;
+            min-height: max-content;
+            border-radius: 20px;
+            background-color: grey;
+        }
+        div>form>table>caption>h1{
+            background-color: red;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="join">
+        <form action="" method="get">
+            <table align="center">
+                <caption><h1>Our Community</h1></caption>
+                <tr>
+                    <th><label for="fname">Name</label></th>
+                    <td><input type="text" id="fname" name="first"></td>
+                </tr>
+                <tr>
+                    <th><label for="lname">Surname</label></th>
+                    <td><input type="text" id="lname" name="last"></td>
+                </tr>
+                <tr>
+                    <th><label for="mob">Mobile</label></th>
+                    <td><input type="number" id="mob" name="num"></td>
+                </tr>
+                <tr>
+                    <th><label for="mail">E-Mail</label></th>
+                    <td><input type="email" id="mail" name="gmail"></td>
+                </tr>
+                <tr>
+                    <th><label for="dob">DOB</label></th>
+                    <td><input type="date" id="dob" name="dob">
+                </tr>
+                <tr>
+                    <th><label for="photo">Photo</label></th>
+                   <td><input type="file" id="photo" name="pass"></td>
+                </tr>
+                <tr>
+                    <th><label for="gen">Gender</label></th>
+
+                    <th style="display: inline-block;">
+                        <input type="radio" id="xy" value="Male" name="male">
+                        <label for="xy">Male</label>
+                        <input type="radio" id="xx" value="Female" name="female">
+                        <label for="xx">Female</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for="passion">Passion</label></th>
+                    <td>
+                        <input type="checkbox"id="cam" value="Photography">
+                        <label for="cam">Photography</label>
+                        <input type="checkbox" id="ed" value="Editing">
+                        <label for="ed">Editing</label>
+                        <input type="checkbox" id="bgm" valur="Bacground Score">
+                        <label for="bgm">Bacground Score</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="rel">Ganesh's</label></th>
+                    <td>
+                        <select name="Ganesh's">
+                            <option value="Frienda">Friend</option>
+                            <option value="Brother">Brother</option>
+                            <option value="Sister">Sister</option>
+                            <option value="Parent">Parents</option>
+                            <option value="Uncle">Uncle</option>
+                            <option value="Aunty">Aunty</option>
+                            <option value="Teacher">Teacher</option>
+                        </select>
+                    </td>
+                </tr>
+                 <tr>
+                    <th>
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Cancel">
+                    </th>
+                </tr>     
+            </table>
+        </form>
+    </div>
+</body>
+</html>
